@@ -12,8 +12,10 @@ column store, and a Go eBPF datapath. Solving the same problem in very different
 languages and architectures is where most of what I know about distributed
 systems design actually came from.
 
-I contribute upstream to the systems I build on, rather than maintaining private
-forks of them.
+I'd rather build the engine than own the car. That instinct is why my work keeps
+moving a layer down — a bitmap library into a query engine, a query engine into
+the kernel — and why I contribute upstream to the systems I depend on instead of
+maintaining private forks of them.
 
 Based in India.
 
