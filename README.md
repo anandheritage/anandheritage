@@ -1,4 +1,4 @@
-# Anand Kumar Shaw - I'd rather build the Ferrari than own one.
+# Anand Kumar Shaw 
 
 
 
