@@ -1,49 +1,48 @@
 # Anand Kumar Shaw
 
-I work on compressed bitmap internals, and on the query engines and datapaths
-that depend on them. Most of my contributions start from the same primitive —
-Roaring bitmaps — and follow it into whatever system needs it: a Java bitmap
-library, a Java OLAP engine, a C++ column store, a Go eBPF datapath, and most
-recently an LLM serving stack.
+I'm a systems architect working on distributed data infrastructure — realtime
+OLAP engines, high-throughput storage, and the kernel and network datapaths
+underneath them. My work spans distributed query execution, transport security,
+in-memory data representation, and per-packet processing in the Linux XDP
+datapath.
+
+Much of it traces back to a single primitive: compressed (Roaring) bitmaps. I've
+carried that primitive across a Java bitmap library, a Java OLAP engine, a C++
+column store, a Go eBPF datapath, and an LLM serving stack. Solving the same
+problem across five languages and five very different architectures is where
+most of what I know about distributed systems design actually came from.
+
+I contribute upstream to the systems I build on, rather than maintaining private
+forks of them.
 
 Based in India.
 
-## Selected work
+## Open source
 
-A curated subset of merged upstream contributions, not an exhaustive list.
+**Merged upstream**
 
-**Compressed bitmap internals**
+- **[Apache Pinot](https://github.com/apache/pinot/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
+  — realtime distributed OLAP datastore. TLS across the multi-stage query engine
+  and dispatch layer, GROUP BY execution correctness, and controller
+  availability handling.
+- **[RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
+  — the compressed bitmap library behind Apache Spark, Apache Pinot, and Netflix
+  Atlas. Copy-on-write bitmaps and container-level accounting.
+- **[Cilium](https://github.com/cilium/cilium/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
+  — eBPF-based networking, security, and observability. Host endpoint QoS setup
+  in the datapath.
+- **[Apache Pinot docs](https://github.com/pinot-contrib/pinot-docs/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
+  — query option documentation.
 
-- [RoaringBitmap#780](https://github.com/RoaringBitmap/RoaringBitmap/pull/780) —
-  implemented copy-on-write roaring bitmaps.
-- [RoaringBitmap#742](https://github.com/RoaringBitmap/RoaringBitmap/pull/742) —
-  added container size accounting.
+**In review**
 
-**OLAP query engines**
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aopen)**
+  — computing bitmap intersection cardinality without materializing the
+  intersection, and filtering for access entity statements.
+- **[vLLM](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aopen)**
+  — RoaringBitmap-backed sparse attention masks.
 
-- [apache/pinot#13645](https://github.com/apache/pinot/pull/13645) — added TLS
-  configuration support for the QueryServer and the dispatch client.
-- [apache/pinot#15844](https://github.com/apache/pinot/pull/15844),
-  [#15966](https://github.com/apache/pinot/pull/15966) — corrected GROUP BY-only
-  query processing under the `accurateGroupByWithoutOrderBy` query option.
-- [apache/pinot#13954](https://github.com/apache/pinot/pull/13954) — handled
-  empty server tags in the controller's availability check.
-
-**Kernel and eBPF datapath**
-
-- [cilium/cilium#43998](https://github.com/cilium/cilium/pull/43998) — optimized
-  host endpoint QoS setup in the datapath.
-
-## Currently working on
-
-- [ClickHouse#117478](https://github.com/ClickHouse/ClickHouse/pull/117478)
-  (open) — computing bitmap intersection cardinality without materializing the
-  intersection.
-- [ClickHouse#114647](https://github.com/ClickHouse/ClickHouse/pull/114647)
-  (open) — `LIKE`/`NOT LIKE`/`ILIKE` filtering for `SHOW` access entity
-  statements.
-- [vllm-project/vllm#29296](https://github.com/vllm-project/vllm/pull/29296)
-  (draft) — RoaringBitmap-based sparse attention mask.
+[All merged contributions across GitHub](https://github.com/search?q=is%3Apr+author%3Aanandheritage+is%3Amerged&type=pullrequests)
 
 ---
 
