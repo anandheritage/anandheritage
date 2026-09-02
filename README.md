@@ -1,6 +1,4 @@
-# Anand Kumar Shaw 
-
-
+# Anand Kumar Shaw
 
 I'm a systems architect working on distributed data infrastructure — realtime
 OLAP engines, high-throughput storage, and the kernel and network datapaths
@@ -49,6 +47,11 @@ you.
   intersection, and filtering for access entity statements.
 
 [All merged contributions across GitHub](https://github.com/search?q=is%3Apr+author%3Aanandheritage+is%3Amerged&type=pullrequests)
+
+## Talks
+
+- **[Going Deeper: A Journey from Databases to Data Structures to the Kernel](https://www.youtube.com/watch?v=shamgF8WHHk)**
+  — Mosaic 2026.
 
 ---
 
