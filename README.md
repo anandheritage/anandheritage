@@ -1,4 +1,6 @@
-# Anand Kumar Shaw
+# Anand Kumar Shaw - I'd rather build the Ferrari than own one.
+
+
 
 I'm a systems architect working on distributed data infrastructure — realtime
 OLAP engines, high-throughput storage, and the kernel and network datapaths
