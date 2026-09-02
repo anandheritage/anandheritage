@@ -17,7 +17,10 @@ moving a layer down — a bitmap library into a query engine, a query engine int
 the kernel — and why I contribute upstream to the systems I depend on instead of
 maintaining private forks of them.
 
-Based in India.
+In India we've gotten very good at buying technology, and we're still learning to
+build it at the deepest layers. I'd like to help change that, one upstream patch
+at a time. If you'd rather build the thing than own it, I'd like to hear from
+you.
 
 ## Open source
 
