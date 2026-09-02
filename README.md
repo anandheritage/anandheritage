@@ -8,9 +8,9 @@ datapath.
 
 Much of it traces back to a single primitive: compressed (Roaring) bitmaps. I've
 carried that primitive across a Java bitmap library, a Java OLAP engine, a C++
-column store, a Go eBPF datapath, and an LLM serving stack. Solving the same
-problem across five languages and five very different architectures is where
-most of what I know about distributed systems design actually came from.
+column store, and a Go eBPF datapath. Solving the same problem in very different
+languages and architectures is where most of what I know about distributed
+systems design actually came from.
 
 I contribute upstream to the systems I build on, rather than maintaining private
 forks of them.
@@ -39,8 +39,6 @@ Based in India.
 - **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aopen)**
   — computing bitmap intersection cardinality without materializing the
   intersection, and filtering for access entity statements.
-- **[vLLM](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aopen)**
-  — RoaringBitmap-backed sparse attention masks.
 
 [All merged contributions across GitHub](https://github.com/search?q=is%3Apr+author%3Aanandheritage+is%3Amerged&type=pullrequests)
 
