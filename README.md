@@ -1,8 +1,8 @@
 # Anand Kumar Shaw
 
-I'm a systems architect working on distributed data infrastructure — realtime
-OLAP engines, high-throughput storage, and the kernel and network datapaths
-underneath them. My work spans distributed query execution, transport security,
+I'm a platform and distributed systems architect working on data infrastructure
+— realtime OLAP engines, high-throughput storage, and the kernel and network
+datapaths underneath them. My work spans distributed query execution, transport security,
 in-memory data representation, and per-packet processing in the Linux XDP
 datapath.
 
