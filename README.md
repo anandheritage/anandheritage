@@ -21,6 +21,10 @@ Based in India.
 
 **Merged upstream**
 
+- **[Linux kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39948c2d42b5093b49f1ad6c3b75df455331ac99)**
+  — `bpf: Add missing XDP_ABORTED handling in cpumap`. The cpumap XDP fast path
+  reported aborts as invalid actions instead of tracing them, unlike the skb,
+  devmap, and generic XDP paths; this restores `trace_xdp_exception()` there.
 - **[Apache Pinot](https://github.com/apache/pinot/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
   — realtime distributed OLAP datastore. TLS across the multi-stage query engine
   and dispatch layer, GROUP BY execution correctness, and controller
