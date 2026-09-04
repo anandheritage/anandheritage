@@ -42,7 +42,7 @@ you.
 
 **In review**
 
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aopen)**
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aclosed)**
   — computing bitmap intersection cardinality without materializing the
   intersection, and filtering for access entity statements.
 
