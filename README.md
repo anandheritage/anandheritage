@@ -23,6 +23,10 @@ you.
 
 **Merged upstream**
 
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aclosed)**
+  — computing bitmap intersection cardinality without materializing the
+  intersection, and filtering for access entity statements.
+  
 - **[Apache Pinot](https://github.com/apache/pinot/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
   — realtime distributed OLAP datastore. TLS across the multi-stage query engine
   and dispatch layer, GROUP BY execution correctness, and controller
@@ -42,9 +46,7 @@ you.
 
 **In review**
 
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+author%3Aanandheritage+is%3Aclosed)**
-  — computing bitmap intersection cardinality without materializing the
-  intersection, and filtering for access entity statements.
+
 
 [All merged contributions across GitHub](https://github.com/search?q=is%3Apr+author%3Aanandheritage+is%3Amerged&type=pullrequests)
 
