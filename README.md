@@ -1,23 +1,6 @@
 # Anand Kumar Shaw
 
-I'm a platform and distributed systems architect working on data infrastructure
-, realtime OLAP engines, high-throughput storage, and the kernel and network
-datapaths underneath them. My work spans distributed query execution, transport security,
-in-memory data representation, and per-packet processing in the Linux XDP
-datapath.
-
-Much of it traces back to a single primitive: compressed (Roaring) bitmaps. I've
-carried that primitive across a Java bitmap library, a Java OLAP engine, a C++
-column store, and a Go eBPF datapath. Solving the same problem in very different
-languages and architectures is where most of what I know about distributed
-systems design actually came from.
-
-
-
-In India we've gotten very good at buying technology, and we're still learning to
-build it at the deepest layers. I'd like to help change that, one upstream patch
-at a time. If you'd rather build the thing than own it, I'd like to hear from
-you.
+I'm a platform and distributed systems architect.
 
 ## Open source
 
