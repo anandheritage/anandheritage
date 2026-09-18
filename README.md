@@ -27,12 +27,6 @@ I'm a platform and distributed systems architect.
 - **[Apache Pinot docs](https://github.com/pinot-contrib/pinot-docs/pulls?q=is%3Apr+author%3Aanandheritage+is%3Amerged)**
   — query option documentation.
 
-**In review**
-
-
-
-[All merged contributions across GitHub](https://github.com/search?q=is%3Apr+author%3Aanandheritage+is%3Amerged&type=pullrequests)
-
 ## Talks
 
 - **[Going Deeper: A Journey from Databases to Data Structures to the Kernel](https://www.youtube.com/watch?v=shamgF8WHHk)**
